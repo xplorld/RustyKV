@@ -1,0 +1,14 @@
+[package]
+name = "RustyKV"
+version = "0.1.0"
+authors = ["xplorld <xplorld@gmail.com>"]
+
+[dependencies]
+
+[lib]
+name="rustykv"
+path="src/lib.rs"
+
+[[bin]]
+name="rustykvbin"
+path="src/bin.rs"
